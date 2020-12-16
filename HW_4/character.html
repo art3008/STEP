@@ -34,14 +34,153 @@
                     <br/>
 
                     <div>
-                        <label>Дата рождения: <input type="datetime" name="dateOfBirth"/></label>
+                        <label>Дата рождения: <input type="date" name="dateOfBirth"/></label>
                     </div>
 
                     <br/>    
                     <hr/>
                     <br/>
 
+                <h1>Создание персонажа</h1>
+                
+                    <br/>
 
+                    <div>
+                        <label>Имя персонажа: <input type="text" name="name"/></label>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        Планета:
+                        <div>
+                            <label>
+                                <input type="radio" name="planet" value="coruscant"/> Coruscant
+                            </label>
+
+                            <label>
+                                <input type="radio" name="planet" value="cybertron"/> Cybertron
+                            </label>
+
+                            <label>
+                                <input type="radio" name="planet" value="gallifrey"/> Gallifrey
+                            </label>
+                        </div>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        Опыт:
+                        <div>
+                            <label>
+                                <input type="radio" name="background" value="pilot"/> Pilot
+                            </label>
+
+                            <label>
+                                <input type="radio" name="background" value="miner"/> Miner
+                            </label>
+
+                            <label>
+                                <input type="radio" name="background" value="merhant"/> Merhant
+                            </label>
+                        </div>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        <label>
+                            Возраст: <input type="number" name="age"/>
+                        </label>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        <label>
+                            Питомец:
+                            <select name="pet">
+                                <option>---</option>
+
+                                <optgroup label="Существа">
+                                    <option>Собака</option>
+                                    <option>Кошка</option>
+                                    <option>Птица</option>
+                                </optgroup>
+
+                                <optgroup label="Роботы">
+                                    <option>R2D2</option>
+                                    <option>R3D3</option>
+                                    <option>R4D4</option>
+                                </optgroup>
+
+                            </select>
+                        </label>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        <label>
+                            Цвет корабля:
+                            <input type="color" name="shipColor"/>
+                        </label>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        <label>
+                            Интеллект:
+                            <input type="number" disabled name="intelligence" value="15"/>
+                        </label>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        <label>
+                            Телосложение:
+                            <input type="number" disabled name="constitution" value="20"/>
+                        </label>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        <label>
+                            Харизма:
+                            <input type="number" disabled name=charisma" value="12"/>
+                        </label>
+                    </div>
+
+                    <br/>
+
+                    <div>
+                        <div>
+                            Инвентарь:
+                            <div>
+                                <label>
+                                    <input type="checkbox" name="inventory-screwdriver"/> Отвёртка
+                                </label>
+                            </div>
+                            
+                            <div>
+                                <label>
+                                    <input type="checkbox" name="inventory-knife"/> Нож
+                                </label>
+                            </div>
+                                
+                            <div>
+                                <label>
+                                    <input type="checkbox" name="inventory-hammer"/> Молот
+                                </label>
+                            </div>
+                                
+                            </div>
+                        </div>
+                    </div>
                     
 
                 </form>
