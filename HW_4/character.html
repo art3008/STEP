@@ -10,7 +10,7 @@
             <td>
             
                 <h1>Регистрация</h1>
-                <form name="character" method="">
+                <form name="character">
                     <div>
                         <label>Email: <input type="email" name="email" placeholder="Введите Email"/></label>
                     </div>
@@ -41,12 +41,12 @@
                     <hr/>
                     <br/>
 
-                <h1>Создание персонажа</h1>
+                    <h1>Создание персонажа</h1>
                 
                     <br/>
 
                     <div>
-                        <label>Имя персонажа: <input type="text" name="name"/></label>
+                        <label>Имя: <input type="text" name="name"/></label>
                     </div>
 
                     <br/>
@@ -133,7 +133,7 @@
                     <div>
                         <label>
                             Интеллект:
-                            <input type="number" disabled name="intelligence" value="15"/>
+                            <input type="number"  name="intelligence" disabled value="15"/>
                         </label>
                     </div>
 
@@ -142,7 +142,7 @@
                     <div>
                         <label>
                             Телосложение:
-                            <input type="number" disabled name="constitution" value="20"/>
+                            <input type="number" name="constitution" disabled value="20"/>
                         </label>
                     </div>
 
@@ -151,40 +151,37 @@
                     <div>
                         <label>
                             Харизма:
-                            <input type="nubmer" disabled name=charisma" value="12"/>
+                            <input type="nubmer"  name="charisma" disabled value="12"/>
                         </label>
                     </div>
 
                     <br/>
-
+                    
                     <div>
+                        Инвентарь:
                         <div>
-                            Инвентарь:
-                            <div>
-                                <label>
-                                    <input type="checkbox" name="inventory-screwdriver"/> Отвёртка
-                                </label>
-                            </div>
+                            <label>
+                                <input type="checkbox" name="inventory-screwdriver"/> Отвёртка
+                            </label>
+                        </div>
                             
-                            <div>
-                                <label>
-                                    <input type="checkbox" name="inventory-knife"/> Нож
-                                </label>
-                            </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="inventory-knife"/> Нож
+                            </label>
+                        </div>
                                 
-                            <div>
-                                <label>
-                                    <input type="checkbox" name="inventory-hammer"/> Молот
-                                </label>
-                            </div>
-                                
-                            </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="inventory-hammer"/> Молот
+                            </label>
                         </div>
                     </div>
-
+                    
+                    
                     <br/>
 
-                    <button type="button" id="roll">Отправить</button>
+                    <button type="submit" id="roll">Отправить</button>
                     <button type="reset">Очистить</button>
 
                 </form>
