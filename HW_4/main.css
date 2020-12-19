@@ -1,0 +1,32 @@
+.registration{
+    color: green;
+}
+
+#inpemail{
+    background-color: lightblue;
+}
+
+#inpPassword{
+    background-color: lightgreen;
+}
+
+#inpDateOfBirth{
+    background-color:lightyellow;
+}
+
+.tableForHW{
+    background-color:dimgray;
+}
+
+label{
+    color:linen ;
+}
+
+h1{
+    color:mediumaquamarine;
+}
+
+button{
+    color: whitesmoke;
+    background-color: violet;
+}
