@@ -81,7 +81,7 @@
     
                         <div>
                             <label>
-                                Возраст: <input type="number" name="age"/>
+                                Возраст: <input type="number"  id="age" name="age"/>
                             </label>
                         </div>
     
@@ -116,28 +116,31 @@
                             </label>
                         </div>
     
-    
-                        <div>
-                            <label>
-                                Интеллект:
-                                <input type="number"  name="intelligence" disabled value="15"/>
-                            </label>
+                        <div class="generator">
+                            <div>
+                                <label>
+                                    Интеллект:
+                                    <input type="number"  name="intelligence" disabled value="15"/>
+                                </label>
+                            </div>
+        
+        
+                            <div>
+                                <label>
+                                    Телосложение:
+                                    <input type="number" name="constitution" disabled value="20"/>
+                                </label>
+                            </div>
+        
+                            <div>
+                                <label>
+                                    Харизма:
+                                    <input type="nubmer"  name="charisma" disabled value="12"/>
+                                </label>
+                            </div>
+
                         </div>
-    
-    
-                        <div>
-                            <label>
-                                Телосложение:
-                                <input type="number" name="constitution" disabled value="20"/>
-                            </label>
-                        </div>
-    
-                        <div>
-                            <label>
-                                Харизма:
-                                <input type="nubmer"  name="charisma" disabled value="12"/>
-                            </label>
-                        </div>
+                    
     
                         <button type="button" id="roll">Генерация</button>
     
