@@ -30,6 +30,19 @@
     font-size: 14px;
 }
 
+.generator  div{
+    margin-top: 5%;
+
+}
+
+.generator input, .create #age{
+    width: 45px;
+    height: 40px;
+    text-align: center;
+}
+
+
+
 
 
 table button{
