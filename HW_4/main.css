@@ -1,32 +1,50 @@
 .registration{
-    color: green;
+    border: 2px solid greenyellow;
 }
 
-#inpemail{
-    background-color: lightblue;
+.registration > div{
+    color: lightcyan;
+    margin-top: 5%;
+        
 }
 
-#inpPassword{
-    background-color: lightgreen;
+.registration  input{
+    background-color: silver;
+    height: 25px;
 }
 
-#inpDateOfBirth{
-    background-color:lightyellow;
+.create{
+    border: 3px solid greenyellow;
 }
+.create > div{
+    margin-top: 5%;
+    color:lightcyan;
+}
+
+.create input{
+    background-color: skyblue;
+    color: red;
+}
+
+.create label{
+    font-size: 14px;
+}
+
+
+
+table button{
+    background-color: orangered;
+    margin-top: 5%;
+}
+
 
 .tableForHW{
     background-color:dimgray;
 }
 
-label{
-    color:linen ;
-}
 
-h1{
-    color:mediumaquamarine;
-}
-
-button{
-    color: whitesmoke;
-    background-color: violet;
+table{
+    margin: auto;
+    padding: auto;
+    border: 10px solid blue;
 }
