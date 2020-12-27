@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,body{
+   
+    height: 100%;
+    
+}
+
+
+.box-a{
+    height: 100%;
+    padding: 15px;
+    background-color: black;
+}
+
+.box-b
+{
+
+    height: 100%;
+    background-color: blue;
+
+}
+
+/*-------------*/
+
+.ini,.yan{
+    height: 50%;
+    padding: 20px;
+    
+}
+
+.ini{
+    background-color: white;
+}
+
+.ini .dot{
+    background-color: black;
+}
+
+.yan .dot{
+    background-color: white;
+    margin-left: 90%;
+}
+
+.yan{
+    background-color: black;
+}
+
+.dot{
+    width: 10%;
+    height: 100%;
+    background-color: brown;
+}
+
+/*-------------*/
+
+.palitra{
+    height: 100%;
+    
+}
+.col1,.col2,.col3,.col4
+{
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+}
+
+.col1{
+    background-color: red;
+}
+
+.col2{
+    background-color: green;
+}
+
+.col3{
+    background-color: blue;
+}
+
+.col4{
+    background-color: seagreen;
+}
+
+/*-------------*/
+
+
+.piramid{
+    background-color: skyblue;
+    height: 100%;
+    padding-top: 39%;
+    overflow:hidden;
+    
+}
+.head, .middle,.foot{
+    background-color: sienna;
+    height: 100px;
+    margin: auto;
+    padding: auto;
+    
+
+}
+
+.head{
+    width: 100px;
+}
+
+.middle{
+    width: 200px;
+}
+
+.foot{
+    width: 300px;
+}
