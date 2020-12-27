@@ -88,21 +88,21 @@ html,body{
 
 /*-------------*/
 
-
-.piramid{
+.sky{
     background-color: skyblue;
     height: 100%;
-    padding-top: 39%;
-    overflow:hidden;
-    
 }
+
+
+.piramid{
+    margin-top: -300px;
+       
+}
+
 .head, .middle,.foot{
     background-color: sienna;
     height: 100px;
-    margin: auto;
-    padding: auto;
-    
-
+    margin: 0 auto;
 }
 
 .head{
