@@ -1,0 +1,25 @@
+body{
+    margin: 4%;
+    padding: 4%;
+    background-color: green;
+}
+
+.left{
+    display: flex;
+    background-color: lightcoral;
+    height: 18cm;
+    width: 500px;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    
+}
+
+.eatery{
+    
+    background-color: lightgreen;
+    height: 8cm;
+    width: 300px;
+    margin-top: 20%;
+    
+}
