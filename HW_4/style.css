@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+
+form{
+    border: 1px solid blue ;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+.registration div{
+    margin-top:15px ;
+}
+
+.create div{
+    margin-top: 15px;
+}
+
+.buttonForForm button{
+    margin: 10px 35px ;
+    border-radius: 10px;
+}
+
+.buttonForForm #clear{
+    background-color: red;
+
+}
+
+.buttonForForm #send{
+    background-color: lightskyblue;
+}
+
+.create #roll{
+    margin: 10px 15px ;
+    background-color: green;
+    font-style: italic;
+    color: white;
+    
+}
+
