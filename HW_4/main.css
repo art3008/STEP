@@ -64,4 +64,9 @@ table{
     margin: auto;
     padding: auto;
     border: 10px solid blue;
+    
+}
+
+body{
+    background-color: silver;
 }
