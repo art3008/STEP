@@ -10,15 +10,27 @@ form{
     padding: 20px 20px;
     border-radius:  10px; 
     border: 2px solid green;
-    height: 600px;
-    position: fixed;
+    
 }
 
 .mains div{
     display: flex;
     flex-direction: column;
+    margin-top: 15px;  
+}
+
+.mains span{
+    color: white;
+    color: blue;
+}
+
+.second div{
+    display: flex;
+    flex-direction: column;
     margin-top: 15px;
-    
-    
+}
+
+.second span{
+    color: blue;
 }
 
