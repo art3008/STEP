@@ -1,24 +1,21 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
-    padding-top: 10%;
+    padding-top: 40px;
     
 }
 
-.users{
-    background-color: lightcyan;
-    border-radius: 10px;
-    border: 2px solid red;
-    padding: 15px 35px;
-    height: 620px;
+form{
+    background-color: aquamarine;
+    padding: 20px 20px;
+    border-radius:  10px; 
+    border: 2px solid green;
+    height: 55%;
+}
+
+.mains div{
+    display: flex;
+    flex-direction: row;
     
 }
 
-.users div{
-    margin-top: 10px;
-}
-
-.users li{
-    margin-top: 5px;
-}

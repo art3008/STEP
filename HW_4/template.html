@@ -2,72 +2,92 @@
 <html lang="en">
 <head>
   <link href="styleForTemplate.css" rel="stylesheet">
-
   <title>Document</title>
 </head>
 
 <body>
 
-  <div class="users">
+  <form name="games">
     
     <h1>Пользователь</h1>
-    <div>
-      <label>Имя пользователя: <span>{email}</span></label>
-    </div>
-   
-    <div>
-      <label>Пароль: <span title="{passwrord}">******</span></label>
-    </div>
 
-    <div>
-      <label>Аватар: <img src="{avatar}" width="50"/></label>
+    <div class="mains">
+      <div>
+        <label>Имя пользователя:</label>
+        <span>{email}</span>
+      </div>  
+
+      <div>
+        <label>Пароль:</label>
+        <span title="{passwrord}">******</span>
+      </div>
+        
+      <div>
+        <label>Аватар:</label>
+        <img src="{avatar}" width="50"/>
+      </div> 
+      <div>       
+        <label>Дата рождения:</label>
+        <span>{dateOfBirth}</span>
+      </div>
+    </div>
+     
+    
+    <!--  -->
+    
+    <div class="second">
+      
+      <h1>Персонаж</h1>
+      <div>
+        <label>Имя:</label>
+        <span>{name}</span>
+      </div>
+
+      <div>
+        <label>Планета:</label>
+        <span>{planet}</span>
+      </div>
+
+      <div>
+        <label>Опыт:</label>
+        <span>{background}</span>
+      </div>
+
+      <div>
+        <label>Возраст:</label>
+        <span>{age}</span>
+      </div>
+
+      <div>
+        <label>Характеристики:</label>
+
+          <ul>
+            <li>Интеллект: {intelligence}</li>
+            <li>Телосложение: {constitution}</li>
+            <li>Харизма: {charisma}</li>
+          </ul>
+
+      </div>
+
+      <div>
+        <label>Питомец:</label>
+        <span>{pet}</span>
+      </div>
+   
+      <div>
+        <label>Инвентарь:</label>
+        <span>{inventory}</span>
+      </div>
+
+      <div>
+        <label color="{shipColor}">Цвет корабля:</label>
+        <span>{shipColor}</span>
+      </div>
+
     </div>
     
-    <div>
-      <label>Дата рождения: {dateOfBirth}</label>
-    </div>
-  
-    <h1>Персонаж</h1>
-    <div>
-      <label>Имя: {name}</label>
-    </div>
-
-    <div>
-      <label>Планета: {planet}</label>
-    </div>
-
-    <div>
-      <label>Опыт: {background}</label>
-    </div>
-
-    <div>
-      <label>Возраст: {age}</label>
-    </div>
-
-    <div>
-      <label>
-        Характеристики:
-        <ul>
-          <li>Интеллект: {intelligence}</li>
-          <li>Телосложение: {constitution}</li>
-          <li>Харизма: {charisma}</li>
-        </ul>
-
-      </label>
-    </div>
-
-    <div>
-      <label>Питомец: {pet}</label>
-    </div>
-   
-    <div>
-      <label>Инвентарь: {inventory}</label>
-    </div>
-
-    <div>
-      <label color="{shipColor}">Цвет корабля: {shipColor}</label>
-    </div>
-  </div>
+    
+  </form>
 
 </body>
 </html>
