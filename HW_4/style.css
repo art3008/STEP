@@ -13,7 +13,12 @@ form{
 }
 
 .registration div{
-    margin-top:15px ;
+    margin-top:15px;
+       
+}
+
+.registration h1{
+    color: green;
 }
 
 .create div{
@@ -21,13 +26,14 @@ form{
 }
 
 .buttonForForm button{
-    margin: 10px 35px ;
+    margin: 15px 35px ;
     border-radius: 10px;
+    
 }
 
 .buttonForForm #clear{
     background-color: red;
-
+    color: white;
 }
 
 .buttonForForm #send{
@@ -42,3 +48,61 @@ form{
     
 }
 
+.buttonForForm {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.background div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.planet div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration{
+    display: flex;
+    flex-direction: column;
+}
+
+.pet div{
+    display: flex;
+    flex-direction: column;
+}
+
+.shipColor div,button{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.age{
+    display: flex;
+    flex-direction: column;
+}
+
+.inventory div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.generator{
+    display: flex;
+    flex-direction: column;
+}
+
+.registration div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.username div{
+    display: flex;
+    flex-direction: column;
+}
