@@ -1,7 +1,7 @@
 <html>
   <head>
     <script src="main.js" type="text/javascript"></script>
-    <link href="style.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
      
@@ -9,36 +9,45 @@
               
 
         <form name="character" enctype="multipart/form-data">
-            <h1>Регистрация</h1>            
+                        
             <div class="registration">
+                <h1>Регистрация</h1>
                 <div>
-                    <label>Email: <input type="email" name="email" placeholder="Введите Email"/></label>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Введите Email"/>
                 </div>
-
-                <div> 
-                    <label>Пароль: <input type="password" placeholder="Введите пароль" minlength="6" maxlength="10" name="password"/></label>  
-                </div>
-                                     
+                
                 <div>
-                    <label>Аватар: <input type="file" name="avatar"/> </label>
+                    <label for="password">Пароль:</label>
+                    <input type="password" placeholder="Введите пароль" minlength="6" maxlength="10" name="password"/>  
                 </div>
-
-                                   
+                
                 <div>
-                    <label>Дата рождения: <input  type="date" name="dateOfBirth"/></label>
+                    <label for="avatar">Аватар:</label>
+                    <input type="file" name="avatar"/>
                 </div>
-
+                    
+                <div>
+                    <label for="dateOfBirth">Дата рождения:</label>
+                    <input type="date" name="dateOfBirth"/>
+                </div>                    
+                
+                
             </div>
 
             <h1>Создание персонажа</h1>
                 
                     
             <div class="create">
-                <div>
-                    <label>Имя: <input type="text" name="name"/></label>
+                
+                <div class="username">
+                    <div>
+                        <label for="name">Имя:</label>
+                        <input type="text" name="name"/>
+                    </div>
                 </div>
 
-                <div>
+                <div class="planet">
                     Планета:
                     <div>
                         <label>
@@ -56,7 +65,7 @@
                 </div>
 
 
-                <div>
+                <div class="background">
                     Опыт:
                     <div>
                         <label>
@@ -74,86 +83,72 @@
                 </div>
 
 
-                <div>
-                    <label>
-                        Возраст: <input type="number"  id="age" name="age"/>
-                    </label>
+                <div class="age">
+                    <label for="age">Возраст:</label>
+                    <input type="number"  id="age" name="age"/>
                 </div>
 
 
-                <div>
-                    <label>
-                        Питомец:
+                <div class="pet">
+                    <label for="pet">Питомец:</label>
+                    <div>
                         <select name="pet">
                             <option>---</option>
-
-                            <optgroup label="Существа">
-                                <option>Собака</option>
-                                <option>Кошка</option>
-                                <option>Птица</option>
-                            </optgroup>
-
-                            <optgroup label="Роботы">
-                                <option>R2D2</option>
-                                <option>R3D3</option>
-                                <option>R4D4</option>
-                            </optgroup>
-
+                                <optgroup label="Существа">
+                                    <option>Собака</option>
+                                    <option>Кошка</option>
+                                    <option>Птица</option>
+                                </optgroup>
+    
+                                <optgroup label="Роботы">
+                                    <option>R2D2</option>
+                                    <option>R3D3</option>
+                                    <option>R4D4</option>
+                                </optgroup>
                         </select>
-                    </label>
+                    </div>
+                    
                 </div>
 
 
-                <div>
-                    <label>
-                        Цвет корабля:
+                <div class="shipColor">
+                    <div>
+                        <label for="shipColor">Цвет корабля:</label>
                         <input type="color" name="shipColor"/>
-                    </label>
+                    </div>
+                    
                 </div>
 
                 <div class="generator">
-                    <div>
-                        <label>
-                            Интеллект:
-                            <input type="number"  name="intelligence" disabled value="15"/>
-                        </label>
-                    </div>
-
-
-                    <div>
-                        <label>
-                            Телосложение:
-                            <input type="number" name="constitution" disabled value="20"/>
-                        </label>
-                    </div>
-
-                    <div>
-                        <label>
-                            Харизма:
-                            <input type="nubmer"  name="charisma" disabled value="12"/>
-                        </label>
-                    </div>
+                    
+                    <label for="intelligence">Интеллект:</label>
+                    <input type="number"  name="intelligence" disabled value="15"/>
+                        
+                   
+                    <label for="constitution">Телосложение:</label>
+                    <input type="number" name="constitution" disabled value="20"/>
+                    
+                    <label for="charisma">Харизма:</label>
+                    <input type="nubmer"  name="charisma" disabled value="12"/>
+                                        
+                    <label for="roll">Кнопка для генерации:</label>
+                    <button type="button" id="roll">Генерация</button>
 
                 </div>
-            
+                            
 
-                <button type="button" id="roll">Генерация</button>
-
-                <div>
+                <div class="inventory">
                     Инвентарь:
                     <div>
                         <label>
                             <input type="checkbox" name="inventory-screwdriver"/> Отвёртка
                         </label>
-                    </div>
-                        
-                    <div>
+                                            
+                    
                         <label>
                             <input type="checkbox" name="inventory-knife"/> Нож
                         </label>
-                    </div>
-                            
-                    <div>
+                    
                         <label>
                             <input type="checkbox" name="inventory-hammer"/> Молот
                         </label>
