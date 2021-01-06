@@ -1,0 +1,223 @@
+html{
+    margin: 4%;
+}
+body{
+    
+    background-color: green;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    
+}
+
+/* LEFT */
+
+.left{
+    
+    background-color: lightcoral;
+    height: 780px;
+    width: 500px; 
+    max-width: 450px;   
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    flex-direction: column;
+    border-left: 10px solid black; 
+    border-top: 10px solid black; 
+    border-bottom: 10px solid black; 
+    position: relative;
+}
+
+ 
+.column{
+    margin-left: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+
+.column #col1{
+    margin-left: 5px;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.column #col2,#col3,#col4,#col5{
+    margin-left: 5px;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin-top: 120px;
+}
+
+.column #col6{
+    margin-left: 5px;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin-top: 120px;
+}
+
+
+.eatery{
+    background-color: blueviolet;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 10px solid black; 
+    border-top: 10px solid black; 
+    border-bottom: 10px solid black;
+    
+    
+}
+
+.kitchen{
+    background-color: cadetblue;
+    width: 180px;
+    height: 220px;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 10px solid black; 
+    border-bottom: 10px solid black;
+}
+
+
+
+
+
+
+/* MIDDLE */
+
+.middle{
+    margin-top: 0%;
+    background-color: lightpink;
+    height: 800px;
+    width: 300px;  
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.top-middle{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.storeroom, .bathroom{
+    height: 240px;
+    
+}
+
+.storeroom{
+    background-color: lightseagreen;
+    width: 100px;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+
+
+}
+.bathroom{
+    background-color: greenyellow;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-top: 10px solid black;
+
+    
+}
+
+.hall{
+    background-color: skyblue;
+    width: 260px;
+    height: 330px;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid black;
+}
+
+.foye{
+    background-color: yellow;
+    width: 260px;
+    height: 190px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black; 
+}
+
+/*LEFT*/
+.right{
+    /* background-color: blue; */
+    height: 800px;
+    width: 500px;
+    margin: 0;
+    position: relative;    
+}
+
+.living-room{
+    height: 580px;
+    max-width: 500px;
+    background-color: slateblue;
+    border-top-right-radius: 80px;
+    border-right: 10px solid black;
+    border-top: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.garage{
+    height: 190px;
+    width: 590px;
+    background-color: skyblue;
+    position: absolute;
+    bottom: 0;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
