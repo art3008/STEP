@@ -60,14 +60,13 @@
       left: 0;
       width: 100px;
       height: 100px;
-
       background-color: grey;
     }
 
     .rect1{
         background-color: black;
         transform: translate(263px,130px) scale(2.78,2.78);
-        perspective: 100px;
+        
     }
 
     .rect2{
@@ -86,6 +85,14 @@
         transform: translate(486px,616px) rotateZ(-39deg) scale(1.55,0.4) ;
     }
 
+    .box{
+      perspective:200px;
+    }
+    .rect5{
+        background-color: red;
+        transform: rotateX(95deg) rotateY(105deg);
+    }
+
 
 
 
@@ -102,7 +109,10 @@
       <div class="shape rect2"></div>
       <div class="shape rect3"></div>
       <div class="shape rect4"></div>
-
+      <div class="box">
+        <div class="shape rect5"></div>
+      </div>
+      
     </div>
   </div>
 </body>
