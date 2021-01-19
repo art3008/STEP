@@ -60,59 +60,82 @@
       left: 0;
       width: 100px;
       height: 100px;
+
       background-color: grey;
     }
 
-    .rect1{
-        background-color: black;
-        transform: translate(263px,130px) scale(2.78,2.78);
-        
+    .ring {
+        display: inline-block;
+        margin: 1em;
+        width: 5.2em;
+        height: 5.3em;
+        border-radius: 50%;
+        vertical-align: middle;
+        background-color: transparent;
+        transform: translate(170px,430px);
     }
 
-    .rect2{
-        background-color: #efa600;
-        transform: translate(53px,391px) rotateZ(-90deg) scale(1.7,1.05);
+    .ring1 {
+        border: 13px solid #8b5238;
     }
 
-    .rect3{
-        background-color:#8e3e09;
-        transform: translate(105px,509px) scale(.65,.65);
 
+    .rect1 {
+      transform-origin: top left;
+      transform: translate(180px, 38px) scale(2.75, 2.75);
+      background-color: #11100c;
+    }
+
+    .rect2 {
+      transform-origin: top left;
+      transform: translate(45px, 350px) scale(1.15, 1.8);
+      background-color: #f5aa01;
+    }
+
+    .rect3 {
+      transform-origin: top left;
+      transform: translate(120px, 530px) scale(.68, .6);
+      background-color: #954309;
     }
 
     .rect4{
-        background-color: #22261f;
-        transform: translate(486px,616px) rotateZ(-39deg) scale(1.55,0.4) ;
+      /* transform-origin: top left; */
+      transform: translate(484px, 614px) rotateZ(-37deg) scale(1.55, .44);
+      background-color: #201e22;
     }
 
     .box{
-      perspective:200px;
+      /* transform-origin: top left; */
+      transform: translate(386px, 561px) rotateZ(-36deg) scale(1.87,2.9);
+
+      perspective: 200px;
+      background-color: transparent;
     }
+
     .rect5{
-        background-color: red;
-        transform: rotateX(95deg) rotateY(105deg);
+      width: 98%;
+      height: 98%;
+
+      transform:  rotateX(-47deg);
+      background-color: #153c67;
     }
-
-
-
-
 
   </style>
 </head>
 <body>
+  
   <div class="easel">
     <img class="palette" src="../Malevich/images/medium.jpg"/>
     <img class="reference" src="../Malevich/images/medium.jpg">
     <div class="canvas">
-      <!-- <div class="shape rect1"></div> -->
-      <div class="shape rect1"></div>
-      <div class="shape rect2"></div>
-      <div class="shape rect3"></div>
-      <div class="shape rect4"></div>
-      <div class="box">
-        <div class="shape rect5"></div>
+      <div class="shape ring ring1"></div>
+      <div class=" shape rect1"></div>
+      <div class=" shape rect2"></div>
+      <div class=" shape rect3"></div>
+      <div class=" shape rect4"></div>
+      <div class="shape box">
+        <div class="rect5"></div>
       </div>
-      
     </div>
   </div>
 </body>
