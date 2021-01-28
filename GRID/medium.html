@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Модриан</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .easel {
+      height: 800px;
+      position: relative;
+    }
+
+    .palette {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80px;
+      transform: translateX(-100%) translateX(-10px);
+    }
+
+    .reference {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      opacity: 0.1;
+      pointer-events: none;
+    }
+    .canvas {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background-color: black;
+
+      display: grid;
+      grid-template-columns: 70px 12px 275px 12px 1fr 12px 178px;
+      grid-template-rows: 315px 2fr 2.5fr 30px;
+      
+      row-gap: 12px;  
+    }
+
+    .rect-1{
+      background-color: red;
+      grid-area: 1 / 1 / span 1 / 4 ;
+    }
+
+    .rect-2{
+      background-color: black;
+      grid-area: 1 / 4;
+    }
+
+    .rect-3{
+      background-color: #fdfcec;
+      grid-area:  1 /  5  / span 1 / 8 ;
+    }
+
+    .rect-4{
+      background-color: #fdfcec;
+      grid-area: 2 / 1 / span 1 / 4 ;
+    }
+
+    .rect-5{
+      background-color: black;
+      grid-area: 2 / 4;
+
+    }
+
+    .rect-6{
+      background-color: #fdfcec;
+      grid-area:  2 /  5  / span 1 / 8 ;;
+    }
+
+    .rect-7{
+      background-color: yellow;
+      grid-area: 3 / 1 / span 3 / 1;
+    }
+
+    .rect-8{
+      background-color: black;
+      grid-area: 3 / 2  / span 3 / 2  ;
+    }
+
+    .rect-9{
+      background-color: #fdfcec;
+      grid-area: 3 / 4  / span 3 / 3  ;
+    }
+
+    .rect-10{
+      background-color: black;
+      grid-area: 3 / 5  / span 3 / 4   ;
+    }
+
+    .rect-11{
+      background-color: blue;
+      grid-area: 3 / 5;
+    }
+
+    .rect-12{
+      background-color: #fdfcec;
+      grid-area: 3 / 7  / span 3 / 8;
+    }
+ 
+    .rect-13{
+      background-color: #fdfcec;
+      grid-area: 4 / 5    ;
+     
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <div class="easel">
+    <img class="palette" src="../GRID/images/medium.jpg"/>
+    <img class="reference" src="../GRID/images/medium.jpg">
+    <div class="canvas">
+
+      <div class="rect-1"></div>
+      <div class="rect-2"></div>
+      <div class="rect-3"></div>
+      <div class="rect-4"></div>
+      <div class="rect-5"></div>
+      <div class="rect-6"></div>
+      <div class="rect-7"></div>
+      <div class="rect-8"></div>
+      <div class="rect-9"></div>
+      <div class="rect-10"></div>
+      <div class="rect-11"></div>
+      <div class="rect-12"></div>
+      <div class="rect-13"></div>
+      
+
+      
+
+    </div>
+  </div>
+</body>
+</html>
