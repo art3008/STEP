@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.header{
+    width: 100%;
+    height: 70%;
+}
+
+.header__head{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__link{
+    padding: 20px 25px;
+}
+
+.header__data{
+    background-color: #709dca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text{
+    padding: 40px 65px ;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header__input_styles{
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.header__input button{
+    width: 200px;
+    height: 40px;
+    background-color: #ffbb42;
+    font-size: 16px;
+    color: white;
+}
+
+.header__image{
+    height: 320px;
+}
+.header__image img{
+    height: 350px;
+    margin-top: 40px;
+
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.center__cont{  
+    width: 100%;
+    background-color: #ffc155;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 50px 65px;
+    color: white;    
+}
+
+
+.center__parag{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.button{
+    margin-top: 80px;
+    height: 100px;
+    width: 280px;
+    background-color:  #ffc155;
+    color: white;
+    border-color: white;
+}
+
+.block{
+    
+    height: 100%;
+    
+}
+
+.block__price{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    background-color: #e7edf3;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.block_a,.block_c{
+    width: 20%;
+    height: 60%;
+}
+
+.block_b{
+    height: 75%;
+    width: 20%;
+}
+
+.block_a{
+    background-color: #ffffff;
+    color: #a8aeb5;   
+}
+
+.block_b{
+    background-color: #709dca;
+    color: white;
+}
+
+.block_c{
+    background-color: #ffffff;
+    color: #a8aeb5;
+    
+}
+
+.block_text{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 35px;
+    text-align: center;
+    
+}
+
+.block__button{
+    margin-top: 100px;
+    height: 55px;
+    background-color:  #ffc155;
+    align-items: center;
+    color: white;
+    border-color:#ffc155 ;
+}
+
+.block__title{
+    font-size: 30px;
+    text-align: center;
+}
+.price{
+    margin: 20px 0 20px 0;
+    font-size: 48px;
+}
