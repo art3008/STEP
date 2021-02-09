@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    color: black
 }
 
 html, body{
@@ -13,12 +13,49 @@ html, body{
 .navigation{
     height: 100%;
     /* width: 100%; */
-    background-image:url(../bootstrap/f9a1aa941b9f9029e6bf4928c3e2191e.jpg) ;
-    background-repeat:repeat-x;
+    background-image:url(../bootstrap/more_volny_priboj_pasmurno_115077_1920x1080.jpg) ;
+    
     
 }
 
-.nav-link{
-    color: white;
-    padding: 25px 35px;
+.btn{
+    border-color:rgba(165, 158, 158, 0);
+    font-size: 16px;
+}
+
+.btn-outline-primary{
+    color: black;
+    border-color: none;
+    
+    margin: 25px 30px;
+    
+}
+
+.btn:hover{
+    background-color: #1299d6;
+}
+
+.navigation__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    font-size: 36px;
+    flex-direction: column;
+    
+}
+
+.navigation__block{
+
+    background-color: #7392a4;
+    width: 1000px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 5px;
+    opacity: 70%;
+
+    font-size: 18px;
+
+    
+
 }
