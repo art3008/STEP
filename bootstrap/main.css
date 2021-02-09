@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navigation{
+    height: 100%;
+    /* width: 100%; */
+    background-image:url(../bootstrap/f9a1aa941b9f9029e6bf4928c3e2191e.jpg) ;
+    background-repeat:repeat-x;
+    
+}
+
+.nav-link{
+    color: white;
+    padding: 25px 35px;
+}
