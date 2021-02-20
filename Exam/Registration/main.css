@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana,sans-serif;
+    
+}
+
+.navigation{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: block;
+    z-index: 1;
+}
+
+.navigation__logo{
+    font-size: 18px;
+    padding: 1.2em 1.2em;
+    float: left;
+    letter-spacing: 4px;
+}
+
+.navigation__link-more{
+    font-size: 18px;
+    padding: 1.2em 1.2em;
+    float: right;
+    
+}
+
+.navigation__link-more a, .navigation__logo a{
+    color: black;
+    padding: inherit;
+    text-decoration: none;
+    
+}
+
+.navigation__link-more a:hover, .navigation__logo a:hover{
+    background-color:  lightgray;
+}
+
+/***********************************************/
+
+.registration{
+    height: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration input{
+    display: flex;
+}
+
+.registration__form div{
+    margin-top: 20px;
+}
+
+.interest select{
+    width: 240px;
+}
+
+
+
+.gender label, .mode label{
+    display: flex;
+    margin-top: 15px ;
+}
+
+input:valid{
+    background-color: lightgreen;
+}
+
+input:invalid{
+    background-color: red
+}
+
+form{
+    height: 100%;
+}
+
+
+.footer{
+
+    height: 15%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__link{
+    font-size: 18px;
+    padding: 1em .3em;
+    background-color: white;
+    
+}
+
+.footer__link a{
+    color: black;;
+    padding: inherit;
+    text-decoration: none;
+    
+}
+
+.footer__link a:hover{
+    background-color:  lightgray;
+    
+}
+
+
+
+
+@media(max-width: 375px){
+
+    .registration{
+        height: auto;
+        font-size: 12px;
+    }
+
+    .navigation__logo{
+        font-size: 12px;
+    }
+
+    .registration__form div{
+        margin-top: 22px;
+    }
+
+    .header__info h1{
+        font-size: 15px;
+    }
+
+    .header__info{
+        top: 25%;
+        padding:50px;
+    }
+
+    .header{
+        height: 100%;
+    }
+
+    .header__link-more a{
+        padding: .8em 1.1em;
+    }
+
+
+    .navigation__link-more{
+        display: flex;
+        flex-direction: column;
+        float: none;
+        padding: 0;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .navigation__link-more a{
+        display: flex;
+        float: left;
+        padding: 10px 10px;
+    }
+
+    .navigation{
+        height: 20%;
+        z-index: 1;
+        position: absolute;
+        
+    }
+
+
+    form{
+        padding-top: 140px;
+    }
+
+    .footer{
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .footer__link {
+        font-size: 12px;
+        padding: .3em .2em;
+    }
+
+}
+
+
+
